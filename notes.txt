@@ -1,0 +1,31 @@
+variables 
+
+
+variable declare    int i;
+variable initialize   i=9;
+
+int i = 2147483648;
+char h;
+h='A';
+
+
+
+Datatype 
+Premitive datatype    Non-premitive datatype
+
+int   56
+byte   3
+short  1
+
+float 56.6
+char  'T'
+
+for datatype reference  https://www.w3schools.com/java/java_data_types.asp
+
+
+
+
+
+
+
+
