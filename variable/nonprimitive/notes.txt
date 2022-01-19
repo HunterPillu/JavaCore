@@ -1,0 +1,13 @@
+Non Primitive
+
+
+String
+Array
+Class 
+Interface
+
+
+
+char ch = 't';
+String str = "Full sentence 89787.000 $&%%%*  _+_+_ ::::"
+
