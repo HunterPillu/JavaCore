@@ -13,7 +13,7 @@ public class Variables{
 		
 		String s2 = "another sentence";
 		
-		String s3 = "";
+		String s3 = "my sentence string is this";
 		
 		String s4 = null;
 		
@@ -23,6 +23,8 @@ public class Variables{
 		int pincode = 834001;
 		
 		System.out.println(s3.isEmpty());
+		int len= s3.length();
+		System.out.println(len);
 		
 		
 		

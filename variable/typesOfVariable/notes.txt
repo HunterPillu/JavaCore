@@ -1,0 +1,58 @@
+new keyword is also called as instance operator
+
+
+constructor  default constructor
+
+use of constructor : used to create instance/object of the class
+
+
+
+class Abc{
+
+
+    int i=9;
+    int j=10;
+
+
+    //constructor
+    public Abc(){
+      akshdkajhskdjf
+    } 
+
+
+
+
+    int i;
+
+    Abc a;
+
+    Abc a =  new Abc(); //xx1001
+    int i = 8;
+
+
+
+
+    a.i
+    a.j
+
+
+    public name(argument)
+
+    public static void name(argument){
+
+    }
+
+}
+
+
+
+class JK{
+
+
+
+   psvm {
+
+   JK jj = new JK();
+
+    }
+}

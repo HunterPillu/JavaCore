@@ -1,6 +1,8 @@
-public class HelloWorld{
-
+class HelloWorld{
+	
 	public int age =60;
+	static int rollnumber =2;
+	
 
 	public HelloWorld(){
 		//default constructor
@@ -9,10 +11,18 @@ public class HelloWorld{
 	}
 
 
+
 	//secondary constructor
 	public int HelloWorld(){
 		return 9;
 	}
+
+
+	public void simple(){
+
+	}
+
+	
 	
 	static public void main(String[] args){
 		
@@ -21,9 +31,15 @@ public class HelloWorld{
 		//System.out.println(args[0]);
 
 
+		int j= 10;
+
 		HelloWorld hw = new HelloWorld();
+
 		System.out.println(hw);
 		
 	}
+
+
+	
 	
 }
