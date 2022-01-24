@@ -35,13 +35,6 @@ class Abc{
     a.i
     a.j
 
-
-    public name(argument)
-
-    public static void name(argument){
-
-    }
-
 }
 
 

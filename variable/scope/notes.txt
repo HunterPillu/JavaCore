@@ -1,0 +1,14 @@
+Scope 
+
+
+java 
+ 
+ 
+ Class 
+ Variable
+ Method
+ 
+ class{
+	 variables
+	 methods
+ }
