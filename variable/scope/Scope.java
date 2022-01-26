@@ -11,12 +11,13 @@ public class Scope{
 	
 	public String key = "public key";
 	
-	
-	
+
 	static int TYPE = 34;
 	
 	
 	static int MEDIA_CODE = 9090;
+	
+	
 	
 	
 	public static void main(String[] args){

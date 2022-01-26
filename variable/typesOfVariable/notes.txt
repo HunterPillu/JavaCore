@@ -7,6 +7,8 @@ use of constructor : used to create instance/object of the class
 
 
 
+ Abc sd = new Abc();
+
 class Abc{
 
 

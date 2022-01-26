@@ -1,0 +1,19 @@
+Methods
+
+
+
+Variable : type 
+
+local   { int i=90;  }
+instance int i =90;
+static  static i = 90;
+
+
+Methods
+
+instance
+static
+
+
+
+
