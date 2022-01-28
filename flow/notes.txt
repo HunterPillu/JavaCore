@@ -1,0 +1,23 @@
+Flow
+
+
+
+if 
+
+if (CONDITION){
+	// statements 
+	//statements
+}
+
+
+
+if(condition){
+
+	//statements
+
+}
+else{
+	
+	//statements
+}
+

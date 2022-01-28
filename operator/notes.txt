@@ -1,0 +1,34 @@
+Operator
+
+
+Airthmetic operator  +-*/%
+Asignment operator  = += -= *= /= 
+Uniary operator ++ --  single operand and single operator
+
+<, > >=  boolean
+
+
+int i = 67;
+
+i = 2+3;
+i = i+3;
+i+=3;
+
+i= i-1;
+i-=4;
+
+i*=4;
+i/=4;
+
+
+i++ ;
+i = i+1;
+
+i--;
+i = i-1;
+i-=1;
+
+
+
+
+
