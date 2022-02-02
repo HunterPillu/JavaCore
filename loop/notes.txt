@@ -1,0 +1,15 @@
+LOOPS
+
+
+1.WHILE 
+
+int i=1;
+while (boolean condition)
+{
+   loop statements...
+}
+
+
+if(i==1){
+ loop statements...
+}
