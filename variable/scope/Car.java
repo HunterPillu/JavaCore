@@ -1,10 +1,15 @@
 public class Car{
 	
 	
+	public void goUp(){
+	}
 	
 	public void goLeft(){
 		System.out.println("going left");
 		
+	}
+	
+	public static void goDown(){
 	}
 	
 	public void goRight(){
@@ -21,7 +26,7 @@ public class Car{
 		c.goRight()
 		c.goLeft();
 		
-		
+		c.goUp();	
 	}
 	
 	
