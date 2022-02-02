@@ -75,8 +75,11 @@ public class IF{
 			System.out.println("greater than 30");
 			
 			if(x>60){
+				int ll =89;
 				System.out.println("greater than 60");
+				
 			}
+			
 		}
 		
 		if(x<30){
