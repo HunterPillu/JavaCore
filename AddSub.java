@@ -9,7 +9,7 @@ public class AddSub
 		f=a*b;
 		g=b/a;
 		System.out.Println("Additin =" + c + "\t" + d);
-		System.out.println("Substration ="+ d);
+		System.out.frintln("Substration ="+ d);
 		System.out.println("multiplication ="+ f);
 		System.out.println("division ="+g );
 	}
