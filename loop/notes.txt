@@ -13,3 +13,39 @@ while (boolean condition)
 if(i==1){
  loop statements...
 }
+
+2. DO WHILE
+
+do
+{
+   loop statements...
+   
+}while (boolean condition)
+
+
+3. FOR
+
+for(initilize ; condition ; incereament;){
+	loop statements...
+}
+
+
+JUMP STATEMENT 
+
+continue , break , return
+
+for(){
+
+	
+	//statement
+	//statement
+	
+	continue;
+	//statement
+	//statement
+	//statement
+	//statement
+	
+	
+}
+

@@ -6,6 +6,8 @@ while (boolean condition)
 }
 
 */
+
+
 public class Loops{
 	
 	public static void main(String... args){
@@ -16,16 +18,33 @@ public class Loops{
 		//	System.out.println("kuch b");
 		//}
 		
-		int i=1;
-	
-		while(i<10){
-			System.out.println("kuch b = "+i);
-			i= i+2;
+		int i=1;  //initilize
+		
+		while(i<10){ //condition
+			
+				//System.out.println("kuch b = "+i);
+				
+				i= i+2; //increament/decrement
+				
+			}
+		
+		//System.out.println("kuch b = "+i);
+		
+		
+		for(int j=1;j<10;j= j+2){
+			System.out.println("kuch b for = "+j);
+			
 		}
-		
-		System.out.println(i); //1,9,1 , 10
-		
+			
 	}
 	
 	
 }
+
+1
+2
+3
+...
+20
+
+6
