@@ -1,0 +1,48 @@
+Array
+
+Variables 
+int i = 78;
+int j = 79;
+
+10th Batch
+100 students
+
+String name  ="Rakesh";
+String name2="Jeet";
+.
+.
+.
+.
+
+homogenous data structure
+Array  name =  {"Rakesh", "Jeet", ...... .. .. ..}
+int   
+ class10  = {"" , "" , "" }
+
+
+Primitive data
+                0           1       2       3   . . . 
+name[0]
+name[1]
+
+//SYNTEX
+
+datatype[] arr_name
+int[] roleNumber;
+String[] names;
+boolean[] bArr;
+HellowWorld[] hello;
+
+
+int[] roleNumber  = new int[5];
+
+datatype[] name = new datatype[SIZE]
+[0,0,0,0,0]
+
+
+variable  : declare  initialize define
+int i = 0
+HelloWorld hello = new HelloWorld();
+
+
+
