@@ -12,7 +12,7 @@ public class Methods2{
 		System.out.println(c);
 	}
 
-	public static int addition2(int a){
+	public static char addition2(int a){
 		int b=78;
 		int c = a+b;
 		//System.out.println(c);
