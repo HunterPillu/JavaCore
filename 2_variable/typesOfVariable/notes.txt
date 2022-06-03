@@ -5,15 +5,22 @@ constructor  default constructor
 
 use of constructor : used to create instance/object of the class
 
-
-
  Abc sd = new Abc();
 
-class Abc{
+ Abc aaa=new Abc();
+
+ BCD bbb =new BCD();
+ 
+ bbb.i;
+ bbb.j;
+ bbb.k;
+
+class BCD{
 
 
     int i=9;
     int j=10;
+    float k = 78f;
 
 
     //constructor
@@ -51,3 +58,16 @@ class JK{
 
     }
 }
+
+
+local variable
+member variable
+static variable
+
+
+
+ageOfAmit;  // local variable
+mAgeOfAmit; // member/instance variable
+AGE_OF_AMIT; // static variable
+
+

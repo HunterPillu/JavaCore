@@ -1,11 +1,23 @@
 //non premitive datatype
-
-
 public class Variables{
 	
 	int i = 89;
+	static int k = 99;
+	
+	public void getData(){
+
+		String s1="test";
+
+	}
+
+	
 	
 	public static void main(String[] aa){
+
+		System.out.println(k);
+
+		System.out.println(i);
+
 		
 		String s1;
 		
@@ -43,4 +55,5 @@ public class Variables{
 		
 		
 	}
+
 }

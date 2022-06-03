@@ -12,3 +12,13 @@ java
 	 variables
 	 methods
  }
+
+
+ //////////////
+
+ AccessModifier
+
+ default
+ private 
+ protected
+ public

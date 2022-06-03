@@ -22,7 +22,7 @@ class{
             //statements
     }
 
-    MODIFIER static RETURN_TYPE METHOD_NAME(ARGUMENTS){
+    MODIFIER static Sona METHOD_NAME(AAlo){
             //statements
     }
 

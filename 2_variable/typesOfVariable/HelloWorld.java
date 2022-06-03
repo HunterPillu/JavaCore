@@ -1,6 +1,6 @@
 class HelloWorld{
 	
-	public int age =60;
+	 int age =60;
 	static int rollnumber =2;
 	
 
@@ -34,8 +34,10 @@ class HelloWorld{
 		int j= 10;
 
 		HelloWorld hw = new HelloWorld();
-
-		System.out.println(hw);
+		hw.age=78*2;
+		rollnumber=90;
+		
+		System.out.println(hw.age);
 		
 	}
 

@@ -1,20 +1,21 @@
 public class Variables{
 	
-	static int gate =2;
-	
-	int watchman = 1;  //to access this variable we need to create instnace of the class
-	int doctor =6; 
+	static int GATE =2;
+	protected  int mWatchman = 1;  //to access this variable we need to create instnace of the class
+	public int mDoctor =6; 
+
 	
 	
 	public static void main(String[] args){
 		System.out.println("inside main method");
 		
 		int tv = 9;  //local variable for main method
-		
-		
-		System.out.println(tv);
-		
 
+		int ageOfAmit=89;
+		
+		
+		System.out.println(GATE);
+		
 		//new Variables();
 
 		String str = new  String();
@@ -41,14 +42,13 @@ public class Variables{
 		//System.out.println(hw2.age);
 		System.out.println(hw2.rollnumber);
 
-
-
 		//main3();
 		
 		System.out.println("ending main method");
 	}
 	
 	public static void main2(){
+
 		System.out.println("inside main-2");
 		
 		int k =99;

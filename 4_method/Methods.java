@@ -2,7 +2,7 @@
 public class Methods{
 	
 	int i =9;
-	static j = 10;
+	static int j = 10;
 
 
 
@@ -41,7 +41,10 @@ public static void main(){
 		System.out.ptintln("asjdfakjh");
 		
 	
-		addition();
+		Methods mm = new Methods();
+		mm.addition();
+
+		substract();
 
 }
 

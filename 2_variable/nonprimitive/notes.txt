@@ -3,7 +3,7 @@ Non Primitive
 
 String
 Array
-Class 
+Class Custom  
 Interface
 
 
