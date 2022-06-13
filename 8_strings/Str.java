@@ -71,7 +71,7 @@ public class Str{
 		 
 		 
 		  int x  =  (i==7) ? (i!=8 ? 23:56) : 34;
-		
+		  
 		
 	}
 	
