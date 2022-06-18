@@ -1,0 +1,50 @@
+OOPS
+
+Inheritence
+Encapsulation
+Abstraction
+Polymorphism
+
+PAPA{
+
+public int calcualteAverage(){
+//
+//
+//
+
+return j;
+}
+
+}
+
+
+
+
+  BETA
+  
+  public int calcualteAverage(){
+//
+//
+////
+
+return j;
+}
+
+
+
+Syntex
+
+class Papa{
+ int j =89;
+
+}
+
+
+class Beta extends Papa{
+
+public static void main(String[] args){
+	Beta b = new Beta();
+	SOP(b.j);
+}
+
+}

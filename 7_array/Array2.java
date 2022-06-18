@@ -1,7 +1,129 @@
+import java.util.Scanner;
 public class Array2{
+	
+	int j =7;
+	static int k =90;
+	String ss1;
+	
+	//public Array2(){
+		//default constructor
+		//primary constructor
+		//System.out.println("Constructor called");
+		//j =9;
+		
+	//}
+	
+
+	
+	public Array2(String ss1, int j){
+		this.ss1 = ss1;
+		this.j=j;
+	}
+	
+	//no return type
+	// name is as per Class name
+	
+	public static void main2(){
+		
+		Scanner scanner =  new Scanner(System.in);
+		
+		System.out.println("Enter day count");
+		int day = scanner.nextInt();
+		
+		if(day == 1){
+			System.out.println("Monday");
+		} else		if(day == 2){
+			System.out.println("Tue");
+		}else 
+		if(day == 3){
+			System.out.println("Wed");
+		}else 
+		if(day == 4){
+			System.out.println("Thur");
+		}else 
+		if(day == 5){
+			System.out.println("Fri");
+		}else 
+		if(day == 6){
+			System.out.println("Sat");
+		}else 
+		if(day == 7){
+			System.out.println("Sun");
+		}else 
+		if(1 >day || day > 7){
+			System.out.println("Invalid day count");
+		}
+		
+		System.out.println("----------------------------");
+		
+		switch(day){
+			case 5 :{
+				System.out.println("Fri");
+				break;
+			}
+			case 6 : {
+				System.out.println("Sat");
+				break;
+			}
+			case 7:{
+				System.out.println("Sun");
+				break;
+			}
+			
+			default:{
+				System.out.println("May be Invalid day count");
+			}	
+		}
+		
+		System.out.println("----------------------------");
+		
+		String[] week = new String[]{"Mon","Tue","Wed","Thu","Fri","Sat","Sun"};
+		
+		System.out.println(week[day-1]);
+		
+		this.j = 9;
+		//this.main2();
+	}
+	
+	public void main3(){
+		
+		this.j =0;
+		
+		Array2 aa  = new Array2("ss",89);
+		aa.j =0;
+		aa.main2();
+		
+		//new Array2().j=0;
+	}
+	
 	
 	
 	public static void main(String[] args){
+		//int j=10;
+		Array2 aa  = new Array2();
+		Array2 aa2  = new Array2();
+		Array2 aa3  = new Array2();
+		
+		aa.j =8;
+		k =870;
+		
+		
+		
+		System.out.println(aa.k);
+		System.out.println(aa2.k);
+		System.out.println(aa3.k);
+		
+		
+		if(true){
+			return;
+		}
+		
+		main2();
+		
+		if(true){
+			return;
+		}
+		
 		
 		int[] rollNumbers;
 		
