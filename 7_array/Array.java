@@ -8,6 +8,7 @@ public class Array {
         int[] rollNumber;
 
         rollNumber = new int[5]; // [0,0,0,0,0]
+		rollNumber[6]
 
         for(int i = 0 ; i<5;i++){
            System.out.println("rollNumber["+i+"] = "+ rollNumber[i]);

@@ -5,13 +5,105 @@ public class Array2{
 	static int k =90;
 	String ss1;
 	
-	//public Array2(){
+	public Array2(){
 		//default constructor
 		//primary constructor
-		//System.out.println("Constructor called");
-		//j =9;
+		System.out.println("Constructor called");
+		j =9;
 		
-	//}
+	}
+	
+	
+	public static void comapreArray(){
+		String[] s1 = new String[]{"r","i","t","e","s","h"};
+		//String[] s1 = new String[]{"m","a","d","a","m"};
+		
+		//{"h","i","t","e","s","r"};
+		String[] s3 = new String[s1.length];
+		
+		
+		//index = 0
+		//size  = 5
+		//temp = r
+		
+		
+		//if(size==1){
+			//no need to reverse
+		//}
+		
+		int size = s1.length;
+		for(int i=0;i<s1.length;i++){
+			if(i <size-1-i){
+				String temp =  s1[i];
+				s1[i] = s1[size-1- i];
+				s1[size-1- i] = temp;
+			}
+		}
+		
+	
+		for(int i=0;i<s1.length;i++){
+			System.out.print(s1[i] + "  ");
+		}
+		System.out.println("-----------------------");
+		
+		for(int i=0;i<s1.length;i++){
+			 s3[size-1-i] = s1[i];
+			 //6-1-0 = 0
+			 //6-1-1 = 1
+			 //6-1-2 = 2
+			 //6-1-3 = 3
+			 //6-1-4 = 4
+			 //6-1-5 = 5 
+		}
+		
+		for(int i=0;i<s3.length;i++){
+			System.out.print(s3[i] + "  ");
+		}
+		
+		System.out.println("-----------------------");
+		String[] s2 = new String[]{"Rakesh20","Rakesh1","Rakesh22","Rakesh4","Rakesh4","Rakesh0"};
+		
+		
+		boolean isSame= true;
+		for(int i=0;i<s1.length;i++){
+			
+			if(s1[i] .equals( s2[i])){
+				
+				System.out.println("value at index "+i+ " is same");
+			}else{
+				System.out.println("value at index "+i+ " is not same");
+				isSame= false;
+				break;
+			}
+			
+			
+		}
+		
+		if(isSame){
+		// Palindrom	
+			
+		}else{
+			//not palindrome
+		}
+		
+		
+		System.out.println("-----------------");
+		for(int i=0;i<s1.length;i++){
+			String value = s1[i];
+			
+			for(int k=0;k<s2.length;k++){
+				
+				if(value.equals(s2[k])){
+				
+					System.out.println(value+" found at index of s2 - "+k);
+				}
+			}
+			
+			
+		}
+		
+		
+	}
 	
 
 	
@@ -81,7 +173,7 @@ public class Array2{
 		
 		System.out.println(week[day-1]);
 		
-		this.j = 9;
+		//this.j = 9;
 		//this.main2();
 	}
 	
@@ -100,6 +192,11 @@ public class Array2{
 	
 	public static void main(String[] args){
 		//int j=10;
+		
+		comapreArray();
+		if(true){
+			return;
+		}
 		Array2 aa  = new Array2();
 		Array2 aa2  = new Array2();
 		Array2 aa3  = new Array2();
