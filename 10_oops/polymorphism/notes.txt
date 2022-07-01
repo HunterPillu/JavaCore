@@ -1,0 +1,26 @@
+Polymorphism
+
+A -> B 
+abc()   abc()
+
+B bb = new B();
+bb.abc();
+
+
+runtime poly
+Method Overriding
+
+javac File.java
+java File 
+
+
+
+
+Overriding
+Same name different classes
+
+Overloading
+Same name  same class diffrent arguments
+
+
+
