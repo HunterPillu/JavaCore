@@ -35,6 +35,7 @@ public class Loops{
 			System.out.println("kuch b for = "+j);
 			
 		}
+		
 			
 	}
 	

@@ -1,0 +1,34 @@
+Inheritance
+
+1. Single Inheritance
+  
+  class A
+  
+  class B extends A
+  
+2. Multilevel Inheritance:
+
+class A
+Class B extends A
+Class C extends B
+class D extends C
+
+
+3. Hierarchical Inheritance:
+class A 
+Class B extends A
+Class D extends A
+
+
+4. Multiple Inheritance:
+
+class A
+add()
+class B
+add()
+
+class C extends A,B
+ C c = new C();
+ c.add();
+ 
+####JAVA is not fully Object oriented language

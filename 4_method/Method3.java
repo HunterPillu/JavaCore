@@ -9,7 +9,6 @@ public class Method3 {
 
  public void  calculateAgeOfAmit( int b ){
           //BODY
-        
      }
 
       //method , 2 input a and b , INT
