@@ -32,3 +32,8 @@ class C extends A,B
  c.add();
  
 ####JAVA is not fully Object oriented language
+
+
+class C
+class A extends C
+class B extends A

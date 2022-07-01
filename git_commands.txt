@@ -1,0 +1,21 @@
+#####to copy repo on your local machine
+git clone https://github.com/HunterPillu/JavaCore.git
+
+
+### to switch branches
+git switch akash
+
+
+## get updated code 
+git pull
+
+
+## to check the status
+git status
+
+
+## to send code to repo
+git add .
+git commit -m "MESSAGE"
+git push origin akash
+

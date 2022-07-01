@@ -4,9 +4,6 @@ public class B extends A{
 		System.out.println("add of class B");
 	}
 	
-	
-	
-	
 	public static void main(String[] aa){
 		
 		B bb= new B();
