@@ -1,0 +1,24 @@
+Scope 
+
+
+java 
+ 
+ 
+ Class 
+ Variable
+ Method
+ 
+ class{
+	 variables
+	 methods
+ }
+
+
+ //////////////
+
+ AccessModifier
+
+ default
+ private 
+ protected
+ public

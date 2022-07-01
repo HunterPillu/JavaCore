@@ -1,0 +1,53 @@
+Methods
+
+
+
+Variable : type 
+
+local   { int i=90;  }
+instance int i =90;
+static  static i = 90;
+
+
+Methods
+
+instance
+static
+
+class{
+
+    int Variable = 0;
+
+    MODIFIER RETURN_TYPE METHOD_NAME(ARGUMENTS){
+            //statements
+    }
+
+    MODIFIER static Sona METHOD_NAME(AAlo){
+            //statements
+    }
+
+   MODIFIER  public/private/protected
+   RETURN_TYPE datatype 
+   METHOD_NAME addNumbers
+   ARGUMENTS String[] args
+
+   public static void main(String[] args){
+
+   }
+
+   public void addition(){
+       int a = 90;
+       int b =80;
+
+       int c = a+b;
+       System.out.println(c);
+   }
+
+   
+
+
+}
+
+
+
+
