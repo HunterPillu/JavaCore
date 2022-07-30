@@ -24,3 +24,25 @@ Same name  same class diffrent arguments
 
 
 
+Overriding
+
+different class
+same access modifier
+same return type 
+same method name, 
+same arguments
+OVERRIDE   Runtime polymorphism
+
+
+Overloading
+same class 
+same access modifier
+same return type 
+same method name,
+diferent/same arguments
+
+Overloading  compileTIme polymorphism
+
+
+
+

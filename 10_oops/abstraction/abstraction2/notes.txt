@@ -1,0 +1,22 @@
+Father  
+Property (Variable):  2 leg, 1 mouth 2 ear 
+Behaviour : howHeWalks , langauge()//hindi
+
+
+Child extends Father
+//china
+
+Child1 extends Father
+// Ameraica
+langauge() // english
+
+Child2 extends Father
+//Spain
+langauge() // spanish
+
+Child3 extends Father
+//Uganda
+
+
+Abstraction
+
